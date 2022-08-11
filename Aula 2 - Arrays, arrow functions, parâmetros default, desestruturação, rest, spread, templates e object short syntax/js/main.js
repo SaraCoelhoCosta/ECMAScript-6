@@ -33,7 +33,7 @@ console.log(multiplos2) // Imprime o resultado da lista multiplos2
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
-// Funções com flecha/seta (com arrow)
+// Arrow Function - Funções com flecha/seta (com arrow)
 
 const soma = array.reduce((total, elemento) => total + elemento) // Soma os elementos da lista, retornando um único resultado
 console.log(soma) // Imprime o resultado da variável soma
