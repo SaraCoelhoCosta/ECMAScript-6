@@ -108,7 +108,7 @@ exibirNomeComDes(usuario);
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
-// Rest
+// Rest - "Resto"
 
 const {idade, ... resto} = usuario;
 console.log(idade); // Exibe apenas a idade
@@ -139,7 +139,7 @@ const usuario2 = {
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
-// Spread
+// Spread - "Espalhar"
 
 // Copiando dados e editando a variável nomeUsuario2 da lista de propriedades usuario2
 const usuario3 = {... usuario2, nomeUsuario2: 'Maria Fernanda'};
