@@ -64,7 +64,7 @@ console.log(propriedade());
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
-// Valor padrão
+// Valor padrão (default)
 
 const somaValoresPadrao = (num1 = 1, num2 = 2) => num1 + num2; // Soma os elementos recebidos, mas se não receber valor em uma ou nas duas variáveis utiliza-se o valor padrão para retornar o resultado
 console.log(somaValoresPadrao()); // Imprime soma com valor padrão
